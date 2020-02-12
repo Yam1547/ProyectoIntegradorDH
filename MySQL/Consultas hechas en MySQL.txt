@@ -1,0 +1,9 @@
+Consultas hechas en My Sql
+
+select * from temas;
+select nombre from usuarios;
+select email from usuaios;
+select perfil from usuarios;
+delete from temas where id=2;
+insert into temas (id, nombre, detalle) values (default, "Harry Potter y la piedra filosofal", "Segundo libro");
+select * from partidas;

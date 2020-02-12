@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Underdog&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Eagle+Lake&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <style type="text/css">* {cursor: url(http://cur.cursors-4u.net/user/use-1/use160.cur), auto !important;}</style>
+    <title>The Wizarding Quiz</title>
+      <script type="text/javascript" src="js/main.js">    </script>
+  </head>
+  <body class="registro">
+
+  <div class="container-registro">
+        <header>
+          <nav id="logo">
+            <img src="imágenes/logo.jpg" alt="logo">
+          </nav>
+          <strong>
+                    <nav id="uno">
+                    <a href="home.html">HOME</a><a href="FAQ.html">FAQ</a><a href="registro.html">REGISTRO</a><a href="login.html">LOG IN</a>
+                  </nav>
+        </strong>
+        </header>
+
+    <form class="form" action="home.html" method="post">
+      <fieldset>
+
+      <strong><div class="login-titulo">REGISTRO</div></strong>
+      <div class="personaje">
+                <img src="imágenes/mcgonagall.jpg" alt="Mcgonagall" >
+      </div>
+
+
+      <p class="registroform">
+      <input id="nombre" type="text" placeholder="Nombre">
+      <p>
+        <span style="color: red; font-size: 10px;" class="ErrorNombre"></span>
+      </p>
+      </p>
+
+
+      <p class="registroform">
+      <input id="apellido" type="text" placeholder="Apellido">
+      <p>
+        <span style="color: red; font-size: 10px;" class="ErrorApellido"></span>
+      </p>
+      </p>
+
+
+    <p class="registroform">
+      <input id="usuario" type="text" placeholder="Ingrese su usuario">
+      <p>
+        <span style="color: red; font-size: 10px;" class="ErrorUsuario"></span>
+      </p>
+      </p>
+
+
+    <p class="registroform">
+      <input id="email" type="email" placeholder="Ingrese su email"  >
+      <p>
+        <span style="color: red; font-size: 10px;" class="ErrorEmail"></span>
+      </p>
+      </p>
+
+
+      <p class="registroform">
+      <input id="contraseña" type="password" name="pass" placeholder="Ingrese su contraseña"  value="" >
+      <p>
+        <span style="color: red; font-size: 10px;" class="ErrorPassword"></span>
+      </p>
+      </p>
+
+
+      <p class="registroform">
+          <input id="confirmar-contraseña" type="password" name="pass" placeholder="Confirmar su contraseña"  value="">
+          <p>
+            <span style="color: red; font-size: 10px;" class="ErrorPassword"></span>
+      </p>
+      </p>
+
+
+      <label class="contacto" for="paises"> País : </label>
+
+      <p>
+        <select class="paises" name="paises">
+          <option value="">Selecciona un país</option>
+        </select>
+        <p>
+          <span style="color: red; font-size: 10px;" class="ErrorPaises"></span>
+        </p>
+        </p>
+
+
+
+      <label for="casas" class="label">Selecciona tu casa preferida</label>
+      <p class="casas">
+              <input type="image" src="imágenes/hogwarts2.jpg" value="" width="10%" >
+      </p>
+      <p class="login-casas">
+        <input type="radio" name="casas" id="casas"> Gryffindor
+        <input type="radio" name="casas" id="casas"> Hufflepuff
+        <input type="radio" name="casas" id="casas"> Ravenclaw
+        <input type="radio" name="casas" id="casas"> Slytherin
+      </p>
+
+      <div class="boton">
+
+          <button  type="submit" name="button"> Crear cuenta </button>
+
+
+      </div>
+
+      </fieldset>
+  </form>
+
+
+      <footer >
+        <div class="container-footer">
+          2019@ Copyright Wingardium.Inc
+        </div>
+      </footer>
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+  </html>

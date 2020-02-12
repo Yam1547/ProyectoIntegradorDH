@@ -1,0 +1,732 @@
+/* CSS DEL HOME */
+
+body.home{
+  background-image: url("../imágenes/Harry2.jpg");
+  margin:0;
+  padding: 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  /*background: linear-gradient(150deg, blue, red, green)
+  background-color: #e5e1c2;
+  background-blend-mode: luminosity;*/
+
+  }
+
+header {
+  background: black;
+  overflow: hidden;
+  opacity: 0.6;
+
+}
+
+#titulo-nav{
+font-size: 1.6rem;
+font-family: 'Cinzel Decorative', cursive;
+margin-top: 20px;
+margin-left: 100px;
+/*margin-left: 20px;*/color:#d4dee3;
+float: left;
+}
+
+
+nav#logo img {
+  width: 6%;
+  margin-left: 40px;
+  float:left;
+}
+
+header nav#uno{
+  display:inline-block;
+  float:right;
+  margin-top: 25px;
+  margin-right: 30px;
+}
+
+header nav#uno a{
+  margin-left: 60px;
+  text-decoration: none;
+  color:#d4dee3;
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 1.0rem;
+}
+
+header nav#uno a:hover{
+  border-bottom: 2px solid #d4dee3;
+}
+
+
+-----------
+.container1{
+    width: 80%;
+    height: 20vh;
+    /*padding: 76% 2%;*/
+}
+
+.box{
+    overflow: hidden;
+    margin: 0px;
+    line-height: 0;
+    transition: all 900ms;
+    padding-top: 145px;
+    position: relative;
+
+}
+
+.box > img{
+    width: 30%;
+    padding-top: 0;
+    /*height: calc(50% - 10vh);
+    object-fit:scale-down;*/
+    transition: all 900ms;
+    opacity: 0.7;
+    border-radius: 20%;
+
+}
+
+.box:hover > img{
+    width: 60%;
+    height: 80%;
+}
+
+
+/*
+.box > span{
+    font-size: 20px;
+    font-family: 'Cinzel Decorative', cursive;
+    color: red;
+    height: 10vh;
+    line-height: 2.6;
+    border: 0;
+}
+
+.box:hover{
+    flex: 20%;
+}*/
+
+
+
+
+/* INICIO DEL FOOTER */
+footer{
+  overflow: hidden;
+}
+.container-footer{
+font-family: 'Cinzel Decorative', cursive;
+font-size: 1.0rem;
+text-align: center;
+background-color: black;
+/*position: absolute;*/
+bottom: 0;
+width: 100%;
+height:50%;
+line-height:50px;
+color: white;
+text-transform: capitalize;
+opacity:0.6;
+margin-top: 39%;
+
+}
+
+.img-social{
+    text-align:right;
+    width: 30px;
+    margin-right: 8px;
+
+}
+
+.social-home {
+  float:right;
+  margin-right: 20px;
+
+}
+
+/* CSS DEL REGISTRO */
+body.registro{
+  background-image: url("../imágenes/Harry7.jpg");
+  margin:0;
+  padding: 0;
+  background-size:cover;
+}
+
+
+
+form{
+    color:#d4dee3;
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+    background-color: black;
+    opacity: 0.75;
+    font-size: 1.2rem;
+    overflow: hidden;
+  /*  border: 1px solid white;*/
+
+
+}
+/*
+.hagrid{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+.ron{ margin-right: 50px;
+
+}
+
+.cont{
+  margin-left: 130px;
+}
+
+.mail{
+  margin-left: 220px;
+}
+
+*/
+.personaje img{
+  border-radius: 70%;
+  margin-top: 20px;
+}
+
+
+
+
+fieldset{
+  color: white;
+}
+
+
+
+  /* CSS DEL LOGIN */
+
+  body.login{
+    background-image: url("../imágenes/Harry10.jpg");
+    margin:0;
+    padding: 0;
+    background-size:cover;
+  }
+
+
+  .login-titulo{
+    color:#d4dee3;
+    font-family: 'Cinzel Decorative', cursive;
+    margin-bottom: 10px;
+    text-align: center;
+      font-size: 1.4rem;
+  }
+
+  /*.loginform{
+  margin-right: 10px;
+
+  }
+
+  .inputform{
+display: block;
+margin-left: 44.5%;
+  }*/
+
+  .login-recordarme{
+      font-family: Arial;
+      font-size: 1.4rem;
+    display: inline-block;
+  }
+
+/*
+  button{
+    text-align: center;
+    color:#d4dee3;
+    padding: 5px;
+    font-size: 1.4rem;
+    font-family: Arial;
+    background-color: black;
+    margin-right: 15px;
+    border: 1px solid #d4dee3;
+
+ }*/
+
+  button{
+    text-align: center;
+    padding:8px 12px;
+    margin:8px 0 0;
+    font-size: 1.4rem;
+    font-family: Arial;
+    border:2px solid #78788c;
+    background:0;
+    color:#5a5a6e;
+    cursor:pointer;
+    transition:all .3s}
+
+button:hover{
+    background:#78788c;
+    color:#fff}
+
+
+    /* CSS DEL FAQ */
+    body.faq{
+      background-image: url("../imágenes/Harry3.jpg");
+      margin:0;
+      padding: 0;
+      background-size:cover;
+    }
+
+    .faq-preg{
+      background-color: black
+      height: 80%
+      width: 85%;
+
+    }
+    .faq-preguntas{
+      font-family: 'Cinzel Decorative', cursive;
+        color:#d4dee3;
+        text-align: center;
+        background-color: black;
+        margin-left: 70px;
+        margin-right: 70px;
+        opacity: 0.7;
+        font-size: 1.5rem;
+    }
+
+    .faq-details{
+      font-family: 'Cinzel Decorative', cursive;
+      display: block;
+      color:#d4dee3;
+      text-align: center;
+      background-color: black;
+      font-size: 1.4rem;
+      margin-left: 70px;
+      margin-right: 70px;
+      opacity: 0.7;
+      margin-bottom: 25px;
+      border-bottom: 0.5px solid #d4dee3;
+    }
+
+    .faq-answer{
+      font-family: 'Arial', cursive;
+      color:#d4dee3;
+      text-align: center;
+      background-color: black;
+      margin-left: 70px;
+      margin-right: 70px;
+      margin-top: 0;
+
+    }
+
+
+    @media screen and (min-width: 280px){
+
+      body.home{
+         background-size: 900px;
+         background-repeat: no-repeat;
+         background-color: black;
+        }
+
+      header nav#uno a{
+        font-size: 0.8rem;
+      }
+
+      #titulo-nav{
+      font-size: 1.2rem;
+      text-align: center;
+      margin-left: 15px;
+      }
+
+      nav#logo img {
+        width: 15%;
+      }
+
+      main p{
+        opacity: 0;
+      }
+      .container-footer{
+      font-size: 1.0rem;
+      margin-top: 100%;
+      }
+
+      .img-social{
+          width: 0px;
+          margin-right: 0px;
+      }
+
+
+      .faq-preguntas{
+          font-size: 0.9rem;
+      }
+
+      .faq-details{
+        font-size: 0.9rem;
+
+      }
+
+      .faq-answer{
+        font-family: 'Arial', cursive;
+        color:#d4dee3;
+        text-align: center;
+        background-color: black;
+        margin-left: 70px;
+        margin-right: 70px;
+        margin-top: 0;
+
+      }
+
+----------------------------
+
+      .reg-titulo{
+        font-size: 1rem;
+
+      }
+
+      .crearcuenta{
+        font-size: 1rem;
+      }
+
+
+      .login-titulo{
+          font-size: 1rem;
+      }
+
+      .login-recordarme{
+          font-size: 1rem;
+      }
+
+      button{
+        font-size: 1rem;
+     }
+
+
+    @media only screen and (min-width: 767px){
+
+      body.home{
+        background-size: 900px;
+        background-repeat: no-repeat;
+        background-color: black;
+
+        }
+
+      header nav#uno a{
+        font-size: 0.9rem;
+        text-align: center;
+      }
+
+      #titulo-nav{
+      font-size: 0.9rem;
+      text-align: center;
+      margin-left: 15px;
+      margin-bottom: 0px;
+      }
+
+      nav#logo img {
+        width: 8%;
+      }
+
+      main p{
+        opacity: 0.7;
+      }
+      .container-footer{
+      font-size: 1.0rem;
+      margin-top: 100%;
+      }
+
+      .img-social{
+          width: 30px;
+          margin-right: 30px;
+      }
+
+
+      .faq-preguntas{
+          font-size: 0.9rem;
+      }
+
+      .faq-details{
+        font-size: 0.9rem;
+
+      }
+
+      .faq-answer{
+        font-family: 'Arial', cursive;
+        color:#d4dee3;
+        text-align: center;
+        background-color: black;
+        margin-left: 70px;
+        margin-right: 70px;
+        margin-top: 0;
+
+      }
+
+
+      .hagrid{
+
+        display: flex;
+        flex-wrap: wrap;
+        background-color: black;
+      }
+
+      .ron{ margin-right: 100px;
+
+      }
+
+      .cont{
+        margin-left: 120px;
+      }
+
+      .mail{
+        margin-left: 120px;
+      }
+
+      form{
+
+          font-size: 0.9rem;
+
+
+      }
+
+      .reg-titulo{
+        font-size: 1rem;
+
+      }
+
+      .crearcuenta{
+        font-size: 1rem;
+      }
+
+
+
+
+      .login-titulo{
+          font-size: 1rem;
+      }
+
+      .login-recordarme{
+          font-size: 1rem;
+      }
+
+      button{
+        font-size: 1rem;
+     }
+
+
+    @media only screen and (min-width: 980px){
+      body.home{
+        background-image: url("../imágenes/Harry2.jpg");
+        margin:0;
+        padding: 0;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center center;
+      }
+
+      header {
+        background: black;
+        overflow: hidden;
+        opacity: 0.6;
+
+      }
+
+      #titulo-nav{
+      font-size: 1.2rem;
+      font-family: 'Cinzel Decorative', cursive;
+      margin-top: 20px;
+      margin-left: 40px;
+      /*margin-left: 20px;*/color:#d4dee3;
+      float: left;
+      }
+
+
+      nav#logo img {
+        width: 6%;
+        margin-left: 40px;
+        float:left;
+      }
+
+      header nav#uno{
+        display:inline-block;
+        float:right;
+        margin-top: 25px;
+        margin-right: 30px;
+      }
+
+      header nav#uno a{
+        margin-left: 60px;
+        text-decoration: none;
+        color:#d4dee3;
+        font-family: 'Cinzel Decorative', cursive;
+        font-size: 1.0rem;
+      }
+
+      header nav#uno a:hover{
+        border-bottom: 2px solid #d4dee3;
+      }
+
+
+      main .bienvenida {
+        position: relative;
+        }
+
+      main p {
+        text-align: center;
+        margin-top: 200px;
+        margin-right: 10px;
+        margin-left: 10px;
+        font-family: 'Cinzel Decorative', cursive;
+        text-transform: lowercase;
+        color: #8a9597;
+        background-color: black;
+        opacity: 0.70;
+        position: absolute;
+        display: block;
+      }
+
+
+
+      /* inicio del footer */
+      footer{
+        overflow: hidden;
+      }
+      .container-footer{
+      font-family: 'Cinzel Decorative', cursive;
+      font-size: 1.0rem;
+      text-align: center;
+      background-color: black;
+      /*position: absolute;*/
+      bottom: 0;
+      width: 100%;
+      height:50%;
+      line-height:50px;
+      color: white;
+      text-transform: capitalize;
+      opacity:0.6;
+      margin-top: 39%;
+
+      }
+
+      .img-social{
+          text-align:right;
+          width: 30px;
+          margin-right: 8px;
+
+      }
+
+      .social-home {
+        float:right;
+        margin-right: 20px;
+
+      }
+
+
+
+      /* CSS DEL REGISTRO
+
+
+
+      .malfoy{
+
+        display: flex;
+        justify-content: center;
+        background-color: black;
+      }
+
+
+      .personaje img{
+        border-radius: 70%;
+        margin-top: 20px;
+      }
+
+
+
+
+
+        /* CSS DEL LOGIN */
+
+        body.login{
+          background-image: url("../imágenes/Harry10.jpg");
+          margin:0;
+          padding: 0;
+          background-size:cover;
+        }
+
+
+        .login-titulo{
+          color:#d4dee3;
+          font-family: 'Cinzel Decorative', cursive;
+          margin-bottom: 10px;
+          text-align: center;
+            font-size: 1.4rem;
+        }
+
+      /*  .loginform{
+        margin-right: 10px;
+
+        }
+
+        .inputform{
+      display: block;
+      margin-left: 44.5%;
+        }*/
+
+        .login-recordarme{
+            font-family: Arial;
+            font-size: 1.4rem;
+          display: inline-block;
+        }
+
+        button{
+          text-align: center;
+          color:#d4dee3;
+          padding: 5px;
+          font-size: 1.4rem;
+          font-family: Arial;
+          background-color: black;
+          margin-right: 15px;
+          border: 1px solid #d4dee3;
+       }
+
+
+          /* CSS DEL FAQ */
+          body.faq{
+            background-image: url("../imágenes/Harry3.jpg");
+            margin:0;
+            padding: 0;
+            background-size:cover;
+          }
+
+          .faq-preg{
+            background-color: black
+            height: 80%
+            width: 85%;
+
+          }
+          .faq-preguntas{
+            font-family: 'Cinzel Decorative', cursive;
+              color:#d4dee3;
+              text-align: center;
+              background-color: black;
+              margin-left: 70px;
+              margin-right: 70px;
+              opacity: 0.7;
+              font-size: 1.5rem;
+          }
+
+          .faq-details{
+            font-family: 'Cinzel Decorative', cursive;
+            display: block;
+            color:#d4dee3;
+            text-align: center;
+            background-color: black;
+            font-size: 1.4rem;
+            margin-left: 70px;
+            margin-right: 70px;
+            opacity: 0.7;
+            margin-bottom: 25px;
+            border-bottom: 0.5px solid #d4dee3;
+          }
+
+          .faq-answer{
+            font-family: 'Arial', cursive;
+            color:#d4dee3;
+            text-align: center;
+            background-color: black;
+            margin-left: 70px;
+            margin-right: 70px;
+            margin-top: 0;
+
+          }
+        }
