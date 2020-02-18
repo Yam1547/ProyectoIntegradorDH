@@ -246,6 +246,7 @@ margin-left: 44.5%;
 
   button{
     text-align: center;
+    text-decoration: none;
     padding:8px 12px;
     margin:8px 0 0;
     font-size: 1.4rem;
@@ -254,7 +255,11 @@ margin-left: 44.5%;
     background:0;
     color:#5a5a6e;
     cursor:pointer;
-    transition:all .3s}
+    transition:all .3s
+
+
+
+  }
 
 button:hover{
     background:#78788c;
@@ -312,11 +317,15 @@ button:hover{
     }
 
     /* CSS DEL GAME */
-    body.game{
+    body.game-body{
       background-image: url("../imágenes/thumb.jpg");
       margin:0;
       padding: 0;
       background-size:cover;
+    }
+
+    .game-button{
+      text-decoration: none;
     }
 
 
