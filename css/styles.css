@@ -73,11 +73,9 @@ header nav#uno a:hover{
 
 }
 
-.box > img{
+ .box> img{
     width: 30%;
-    padding-top: 0;
-    /*height: calc(50% - 10vh);
-    object-fit:scale-down;*/
+    padding-top: 20px;
     transition: all 900ms;
     opacity: 0.7;
     border-radius: 20%;
@@ -88,21 +86,6 @@ header nav#uno a:hover{
     width: 60%;
     height: 80%;
 }
-
-
-/*
-.box > span{
-    font-size: 20px;
-    font-family: 'Cinzel Decorative', cursive;
-    color: red;
-    height: 10vh;
-    line-height: 2.6;
-    border: 0;
-}
-
-.box:hover{
-    flex: 20%;
-}*/
 
 
 
@@ -163,26 +146,7 @@ form{
 
 
 }
-/*
-.hagrid{
-  display: flex;
-  justify-content: center;
-  background-color: black;
-}
 
-.ron{ margin-right: 50px;
-
-}
-
-.cont{
-  margin-left: 130px;
-}
-
-.mail{
-  margin-left: 220px;
-}
-
-*/
 .personaje img{
   border-radius: 70%;
   margin-top: 20px;
@@ -215,15 +179,7 @@ fieldset{
       font-size: 1.4rem;
   }
 
-  /*.loginform{
-  margin-right: 10px;
 
-  }
-
-  .inputform{
-display: block;
-margin-left: 44.5%;
-  }*/
 
   .login-recordarme{
       font-family: Arial;
@@ -231,18 +187,7 @@ margin-left: 44.5%;
     display: inline-block;
   }
 
-/*
-  button{
-    text-align: center;
-    color:#d4dee3;
-    padding: 5px;
-    font-size: 1.4rem;
-    font-family: Arial;
-    background-color: black;
-    margin-right: 15px;
-    border: 1px solid #d4dee3;
 
- }*/
 
   button{
     text-align: center;
@@ -323,10 +268,46 @@ button:hover{
       padding: 0;
       background-size:cover;
     }
+    .albus{
+      display:flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+
+    }
 
     .game-button{
       text-decoration: none;
     }
+
+    .img-game {
+      width: 250px;
+      height:270px ;
+      border-radius: 70%;
+      margin-top: 150px;
+      margin-left: 20px;
+      border: #80705f 2px solid;
+
+
+    }
+
+    .albus:hover .img-game{
+         opacity: 0;
+          transition: 10s;
+
+    }
+
+      /* CSS DE LOS QUIZZES */
+
+      body.game-quizz{
+        background-image: url("../imágenes/fondomagia.jpg");
+        margin:0;
+        padding: 0;
+        background-size:cover;
+      }
+
+
+
 
 
     @media screen and (min-width: 280px){
@@ -408,6 +389,20 @@ button:hover{
       button{
         font-size: 1rem;
      }
+
+     /* CSS DEL GAME */
+
+     .albus{
+       display:flex;
+       flex-wrap: wrap;
+
+
+     }
+
+     .game-button{
+       text-decoration: none;
+     }
+
 
 
     @media only screen and (min-width: 767px){
