@@ -311,6 +311,14 @@ button:hover{
 
     }
 
+    /* CSS DEL GAME */
+    body.game{
+      background-image: url("../imágenes/thumb.jpg");
+      margin:0;
+      padding: 0;
+      background-size:cover;
+    }
+
 
     @media screen and (min-width: 280px){
 
