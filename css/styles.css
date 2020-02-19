@@ -262,18 +262,26 @@ button:hover{
     }
 
     /* CSS DEL GAME Y QUIZZES*/
+
     body.game-body{
       background-image: url("../imágenes/thumb.jpg");
       margin:0;
       padding: 0;
       background-size:cover;
     }
+
     .albus{
       display:flex;
-      flex-direction: row;
-      justify-content: space-between;
+      justify-content: center;
 
 
+    }
+    .login-game{
+      color: black;
+      font-family: 'Cinzel Decorative';
+      padding-top: 100px;
+      text-align: center;
+      font-size: 2rem;
     }
 
     .game-button{
@@ -282,20 +290,21 @@ button:hover{
 
     .img-game {
       width: 320px;
-      height:320px ;
+      height:370px ;
       border-radius: 30%;
-      margin-top: 150px;
+      margin-top: 20px;
       margin-left: 15px;
       border: #4e6ea9 2px solid;
 
 
     }
 
+/*
     .albus:hover .img-game{
          opacity: 0;
-          transition: 10s;
+          transition: 0s;
 
-    }
+    }*/
 
 
     body.game-quizz{
