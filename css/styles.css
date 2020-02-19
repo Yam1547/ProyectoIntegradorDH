@@ -261,7 +261,7 @@ button:hover{
 
     }
 
-    /* CSS DEL GAME */
+    /* CSS DEL GAME Y QUIZZES*/
     body.game-body{
       background-image: url("../imágenes/thumb.jpg");
       margin:0;
@@ -281,12 +281,12 @@ button:hover{
     }
 
     .img-game {
-      width: 250px;
-      height:270px ;
-      border-radius: 70%;
+      width: 320px;
+      height:320px ;
+      border-radius: 30%;
       margin-top: 150px;
-      margin-left: 20px;
-      border: #80705f 2px solid;
+      margin-left: 15px;
+      border: #4e6ea9 2px solid;
 
 
     }
@@ -297,15 +297,13 @@ button:hover{
 
     }
 
-      /* CSS DE LOS QUIZZES */
 
-      body.game-quizz{
-        background-image: url("../imágenes/fondomagia.jpg");
-        margin:0;
-        padding: 0;
-        background-size:cover;
-      }
-
+    body.game-quizz{
+      background-image: url("../imágenes/fondomagia.jpg");
+      margin:0;
+      padding: 0;
+      background-size:cover;
+    }
 
 
 
