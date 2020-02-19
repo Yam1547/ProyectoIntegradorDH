@@ -107,7 +107,7 @@ line-height:50px;
 color: white;
 text-transform: capitalize;
 opacity:0.6;
-margin-top: 39%;
+margin-top: 5%;
 
 }
 
@@ -262,26 +262,18 @@ button:hover{
     }
 
     /* CSS DEL GAME Y QUIZZES*/
-
     body.game-body{
       background-image: url("../imágenes/thumb.jpg");
       margin:0;
       padding: 0;
       background-size:cover;
     }
-
     .albus{
       display:flex;
-      justify-content: center;
+      flex-direction: row;
+      justify-content: space-between;
 
 
-    }
-    .login-game{
-      color: black;
-      font-family: 'Cinzel Decorative';
-      padding-top: 100px;
-      text-align: center;
-      font-size: 2rem;
     }
 
     .game-button{
@@ -290,21 +282,20 @@ button:hover{
 
     .img-game {
       width: 320px;
-      height:370px ;
+      height:320px ;
       border-radius: 30%;
-      margin-top: 20px;
+      margin-top: 150px;
       margin-left: 15px;
       border: #4e6ea9 2px solid;
 
 
     }
 
-/*
     .albus:hover .img-game{
          opacity: 0;
-          transition: 0s;
+          transition: 10s;
 
-    }*/
+    }
 
 
     body.game-quizz{
@@ -344,7 +335,7 @@ button:hover{
       }
       .container-footer{
       font-size: 1.0rem;
-      margin-top: 100%;
+    /*margin-top: 22%;*/
       }
 
       .img-social{
@@ -442,7 +433,7 @@ button:hover{
       }
       .container-footer{
       font-size: 1.0rem;
-      margin-top: 100%;
+      /*margin-top: 22%;*/
       }
 
       .img-social{
@@ -613,7 +604,7 @@ button:hover{
       color: white;
       text-transform: capitalize;
       opacity:0.6;
-      margin-top: 39%;
+      margin-top: 5%;
 
       }
 
@@ -749,3 +740,4 @@ button:hover{
 
           }
         }
+        
