@@ -1,7 +1,7 @@
 /* CSS DEL HOME */
 
 body.home{
-  background-image: url("../imágenes/Harry2.jpg");
+  background-image: url("../img/Harry2.jpg");
   margin:0;
   padding: 0;
   background-size: cover;
@@ -126,7 +126,7 @@ margin-top: 5%;
 
 /* CSS DEL REGISTRO */
 body.registro{
-  background-image: url("../imágenes/Harry7.jpg");
+  background-image: url("../img/Harry7.jpg");
   margin:0;
   padding: 0;
   background-size:cover;
@@ -164,7 +164,7 @@ fieldset{
   /* CSS DEL LOGIN */
 
   body.login{
-    background-image: url("../imágenes/Harry10.jpg");
+    background-image: url("../img/Harry10.jpg");
     margin:0;
     padding: 0;
     background-size:cover;
@@ -213,7 +213,7 @@ button:hover{
 
     /* CSS DEL FAQ */
     body.faq{
-      background-image: url("../imágenes/Harry3.jpg");
+      background-image: url("../img/Harry3.jpg");
       margin:0;
       padding: 0;
       background-size:cover;
@@ -263,7 +263,7 @@ button:hover{
 
     /* CSS DEL GAME Y QUIZZES*/
     body.game-body{
-      background-image: url("../imágenes/Castillo.jpg");
+      background-image: url("../img/Castillo.jpg");
       /*background-color: #021122;*/
       margin:0;
       padding: 0;
@@ -321,7 +321,7 @@ button:hover{
 
 
     body.game-quizz{
-      background-image: url("../imágenes/fondomagia.jpg");
+      background-image: url("../img/fondomagia.jpg");
       margin:0;
       padding: 0;
       background-size:cover;
@@ -538,7 +538,7 @@ button:hover{
 
     @media only screen and (min-width: 980px){
       body.home{
-        background-image: url("../imágenes/Harry2.jpg");
+        background-image: url("../img/Harry2.jpg");
         margin:0;
         padding: 0;
         background-size: cover;
@@ -669,7 +669,7 @@ button:hover{
         /* CSS DEL LOGIN */
 
         body.login{
-          background-image: url("../imágenes/Harry10.jpg");
+          background-image: url("../img/Harry10.jpg");
           margin:0;
           padding: 0;
           background-size:cover;
@@ -714,7 +714,7 @@ button:hover{
 
           /* CSS DEL FAQ */
           body.faq{
-            background-image: url("../imágenes/Harry3.jpg");
+            background-image: url("../img/Harry3.jpg");
             margin:0;
             padding: 0;
             background-size:cover;
