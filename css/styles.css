@@ -263,16 +263,16 @@ button:hover{
 
     /* CSS DEL GAME Y QUIZZES*/
     body.game-body{
-      background-image: url("../imágenes/thumb.jpg");
+      background-image: url("../imágenes/Castillo.jpg");
+      /*background-color: #021122;*/
       margin:0;
       padding: 0;
       background-size:cover;
     }
     .albus{
       display:flex;
-      flex-direction: row;
-      justify-content: space-between;
 
+      justify-content:center;
 
     }
 
@@ -281,21 +281,21 @@ button:hover{
     }
 
     .img-game {
-      width: 320px;
-      height:320px ;
-      border-radius: 30%;
-      margin-top: 150px;
+      width: 250px;
+      height:250px ;
+      border-radius: 50%;
+      margin-top: 20px;
       margin-left: 15px;
-      border: #4e6ea9 2px solid;
+      border: black 2px solid;
 
 
     }
-
+/*
     .albus:hover .img-game{
          opacity: 0;
           transition: 10s;
 
-    }
+    }*/
 
 
     body.game-quizz{
@@ -740,4 +740,3 @@ button:hover{
 
           }
         }
-        
